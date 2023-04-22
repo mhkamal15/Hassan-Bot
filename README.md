@@ -1,4 +1,18 @@
 # Hassan-Bot
-![](https://user-images.githubusercontent.com/120230397/233751665-0db7e15b-1e9e-49e5-8443-e1114619980a.png | width=100)
-[[https://user-images.githubusercontent.com/120230397/233751665-0db7e15b-1e9e-49e5-8443-e1114619980a.png|width=100px]]
-A minimalist, stylish Discord bot.
+A minimalist yet stylish Discord bot.
+Built primarily for the Diverse Table Discord Server. Hosted and designed in node.js.
+
+**Can** do the following things:
+- Drop a rap beat.
+- Say hi back.
+- Be rude and disrespectful.
+- Say random facts.
+- Tell you about how dumb you are.
+
+**Can't** do:
+- Cook you a seafood dinner.
+- Get you 3 wishes.
+- Pretty much anything else...
+
+Named after the famed Mohammed "Hassan" Khan. More improvements to be added soon.
+Made with packaging help from the node.js community.
