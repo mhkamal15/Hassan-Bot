@@ -43,4 +43,4 @@ client.on('message', async message => {
   }
 })
 
-client.login('your-bot-token-here')
+client.login('bot-token')
