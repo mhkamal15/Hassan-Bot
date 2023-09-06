@@ -3,7 +3,6 @@ A minimalist yet stylish Discord bot.
 Built primarily for the Diverse Table Discord Server. Hosted and designed in node.js.
 
 **Can** do the following things:
-- Drop a rap beat.
 - Say hi back.
 - Be rude and disrespectful.
 - Say random facts.
