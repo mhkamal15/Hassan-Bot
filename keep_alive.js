@@ -1,13 +1,15 @@
-const keepAlive = () => {
-  setInterval(() => {
-    const url = 'https://discord.com/api/v8/users/@me/channels';
-    fetch(url, {
-      method: 'GET',
-      headers: {
-        Authorization: `Bot ${process.env.DISCORD_BOT_SECRET}`,
-      },
-    });
-  }, 60000);
-};
+from flask import Flask
+from threading import Thread
 
-keepAlive();
+app = Flask('')
+
+@app.route('/')
+def home():
+    return "I'm alive"
+
+def run():
+  app.run(host='0.0.0.0',port=8080)
+
+def keep_alive():
+    t = Thread(target=run)
+    t.start()
